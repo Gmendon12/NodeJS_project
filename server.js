@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const data1 = require('./Routes/Bollywood')
+const data2 = require('./Routes/Technology')
 const cors = require('cors')
 
 app.use(cors({
@@ -9,6 +10,7 @@ app.use(cors({
 
 
 app.use('/home', data1)
+app.use('/home', data2)
 
 app.get('/', (req,res)=>{
 res.write("hello");
