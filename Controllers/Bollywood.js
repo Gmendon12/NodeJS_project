@@ -35,9 +35,27 @@ const bollywood = (req,res) =>{
                 headerB : "Catch waves with an adventure guide",
                 descriptionB: "Gujarat is vastly underrated and its a mystery to us why the region isnt more well known as a tourist destination.",
                 backgroundB : ("images/bollywoodimage.jpg")
+            },
+            {
+                headerBtp : "Catch waves with an adventure guide",
+                descriptionBtp: "Travel / September 22, 2022",
+                backgroundBtp : ("images/mangal.jpg"),
+                number: '2'
+            },
+            {
+                headerBtp : "Catch waves with an adventure guide",
+                descriptionBtp: "Travel / September 22, 2022",
+                backgroundBtp : ("images/mangal.jpg"),
+                number: '3'
+            },
+            {
+                headerBtp : "Catch waves with an adventure guide",
+                descriptionBtp: "Travel / September 22, 2022",
+                backgroundBtp : ("images/mangal.jpg"),
+                number: '4'
             }
         ]
     )
 }
 
-module.exports.bollywooddata = bollywood
+module.exports.bollywooddata = bollywood;
