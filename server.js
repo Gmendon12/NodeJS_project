@@ -3,6 +3,7 @@ const app = express()
 const data1 = require('./Routes/Bollywood')
 const data2 = require('./Routes/Technology')
 const data3 = require('./Routes/Hollywood')
+const data4 = require('./Routes/Fitness')
 const cors = require('cors')
 
 app.use(cors({
@@ -13,6 +14,7 @@ app.use(cors({
 app.use('/home', data1)
 app.use('/home', data2)
 app.use('/home', data3)
+app.use('/home', data4)
 
 app.get('/', (req,res)=>{
 res.write("hello");
